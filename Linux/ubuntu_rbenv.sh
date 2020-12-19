@@ -4,7 +4,7 @@ echo 'Wait a moment. We are waking up your ruby installer. You need to work this
 sudo apt -y install zlib1g-dev autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev libncurses5-dev libffi-dev libgdbm-dev libdb-dev openssl
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+export PATH="$HOME/.rbenv/bin:$PATH" >> ~/.bash_profile
 ~/.rbenv/bin/rbenv init
 eval "$(rbenv init -)" >> ~/.bash_profile 
 source ~/.bash_profile 
